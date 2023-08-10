@@ -15,11 +15,14 @@
   </head>
   <body>
     <!--Header Start -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-20">
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
-            <a href="#home" class="font-bold text-lg text-primary block py-6"><span class="Uppercase text-2xl font-extrabold">U</span>GOT</a>
+            <a href="#home"><img src="dist/img/logo-ugot.png" alt="header" class="max-w-[120px] opacity-70 transition hover:opacity-100 lg:mx-6 xl:mx-8 lg:max-w-[150px]" /></a>
+            <!-- <a href="#home"><img src="dist/img/ugot-logo.png" alt="header" class="block max-w-[150px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 dark:opacity-100" /></a> -->
+
+            <!-- <a href="#home" class="font-bold text-lg text-primary block py-6"><span class="Uppercase text-2xl font-extrabold">U</span>GOT</a> -->
           </div>
           <div class="flex items-center px-4">
             <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -36,19 +39,19 @@
                 <li class="group"><a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"> Home </a></li>
 
                 <li class="group">
-                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"> About </a>
+                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">About</a>
                 </li>
                 <li class="group">
-                  <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"> Portofolio </a>
+                  <a href="#product" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Product</a>
                 </li>
                 <li class="group">
-                  <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"> Clients </a>
+                  <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Clients</a>
                 </li>
                 <li class="group">
-                  <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"> Blog </a>
+                  <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Blog</a>
                 </li>
                 <li class="group">
-                  <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"> Contact </a>
+                  <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Contact</a>
                 </li>
                 <li class="mt-3 flex items-center pl-8 lg:mt-0">
                   <div class="flex">
@@ -71,34 +74,168 @@
     <!--Header End -->
 
     <!--Hero Section Start-->
-    <section id="home" class="pt-36 dark:bg-dark">
+
+    <section id="home" class="pt-36 pb-32 dark:bg-slate-800">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
-            <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semuaaa~! 👋, Saya <span class="block font-gold text-dark text-4xl mt-1 lg:text-5xl dark:text-white"> Ugot</span></h1>
-            <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl dark:text-white">Microelectronics | <span class="text-dark dark:text-white"> Gamer </span></h2>
-            <p class="font-medium text-secondary mb-10 leading-relax dark:text-slate-200">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, eum.</p>
-            <a href="#" class="text-base font-semibold bg-primary py-3 px-8 text-white rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact Me</a>
+          <div class="w-full px-4 lg:w-1/2">
+            <img src="dist/img/logo-sized.png" alt="logo" class="w-full" />
           </div>
-          <div class="w-full self-end px-4 lg:w-1/2">
-            <div class="relative mt-10 lg:mt-9 lg:right-0">
-              <!-- 761x761-->
-              <img src="dist/img/ugot.png" alt="Ugot" class="max-w-full mx-auto relative z-10" />
-
-              <span class="absolute -bottom-10 left-1/2 -translate-x-1/2 md:scale-125">
-                <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    fill="#14b8a6"
-                    d="M53,-51.7C59.5,-34,49.5,-12.5,43,7.4C36.6,27.4,33.7,45.7,22.3,54.4C10.8,63.1,-9.3,62,-21.1,52.9C-32.9,43.7,-36.5,26.4,-43.4,6.9C-50.2,-12.6,-60.4,-34.4,-53.7,-52.2C-47,-69.9,-23.5,-83.6,-0.2,-83.5C23.2,-83.4,46.4,-69.4,53,-51.7Z"
-                    transform="translate(100 100) scale(1.1)"
-                  />
-                </svg>
-              </span>
+          <div class="w-full px-4 lg:w-1/2 justify-center item-center">
+            <div class="flex flex-wrap">
+              <div class="columns-4 border rounded-lg shadow-lg mt-0 lg:mt-56 w-full">
+                <a href="#" class="p-4 rounded-full flex justify-center items-center border border-dark text-dark border-solid hover:border-primary hover:bg-primary hover:text-white dark:border-slate-400 dark:text-slate-400">
+                  <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Gaming</title>
+                    <path
+                      d="M24 13.2v-6l-6-3.6-6 3.6-6-3.6-6 3.6v6l12 7.2zM8.4 10.8H6v2.4H4.8v-2.4H2.4V9.6h2.4V7.2H6v2.4h2.4zm7.2 2.4a1.2 1.2 0 01-1.2-1.2c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2zm3.6-2.4A1.2 1.2 0 0118 9.6c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2Z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="p-4 rounded-full flex justify-center items-center border border-dark text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-slate-400 dark:text-slate-400">
+                  <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Robot</title>
+                    <path
+                      d="M4.9565 10.2246c0-1.8766 1.5257-3.4023 3.4-3.4023 1.8766 0 3.4024 1.5257 3.4024 3.4023 0 .6838-.5526 1.2364-1.2341 1.2364-.6818 0-1.2344-.5526-1.2344-1.2364 0-.513-.4185-.9296-.9338-.9296-.5129 0-.9317.4165-.9317.9296 0 .6838-.5523 1.2364-1.234 1.2364-.6818 0-1.2344-.5526-1.2344-1.2364m14.0868 5.717c0 .6842-.5524 1.2363-1.2341 1.2363H6.3575c-.6818 0-1.2344-.552-1.2344-1.2363 0-.6837.5526-1.2363 1.2344-1.2363h11.4517c.6817 0 1.234.5526 1.234 1.2363m-5.351-5.0244c-.3814-.5657-.2323-1.3328.3334-1.7143l2.8628-1.9334c.5613-.3902 1.3329-.2324 1.7144.3289.3815.5654.2323 1.3329-.3334 1.7144l-2.8628 1.9333c-.5442.3831-1.3348.2379-1.7144-.3289zm7.8393 7.6018a.8815.8815 0 0 1-.258.6227l-2.1277 2.1277a.8822.8822 0 0 1-.623.258H5.4772a.8822.8822 0 0 1-.623-.258l-2.1277-2.1277a.8815.8815 0 0 1-.258-.6227V5.4818a.8797.8797 0 0 1 .258-.6228l2.1277-2.1282a.8816.8816 0 0 1 .623-.2578h13.0456a.8816.8816 0 0 1 .623.2578l2.1277 2.1282a.8797.8797 0 0 1 .258.6228V18.519zm1.811-15.0835L20.5644.6577A2.2454 2.2454 0 0 0 18.9775 0H5.0207A2.2445 2.2445 0 0 0 3.433.658L.657 3.4359A2.2449 2.2449 0 0 0 0 5.0228v13.9547c0 .5953.2366 1.1667.6575 1.5872l2.778 2.7779c.421.421.9918.6573 1.5871.6573h13.9548a2.2448 2.2448 0 0 0 1.5872-.6573l2.7779-2.7779A2.2436 2.2436 0 0 0 24 18.9775V5.023a2.2451 2.2451 0 0 0-.6575-1.5875z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="p-4 rounded-full flex justify-center items-center border border-dark text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-slate-400 dark:text-slate-400">
+                  <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Visual Studio Code</title>
+                    <path
+                      d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="p-4 rounded-full flex justify-center items-center border border-dark text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-slate-400 dark:text-slate-400">
+                  <svg
+                    viewBox="0 0 512 512"
+                    class="fill-current"
+                    enable-background="new 0 0 512 512"
+                    id="Layer_1"
+                    version="1.1"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="#000000"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0" class="fill-current"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" class="fill-current"></g>
+                    <g id="SVGRepo_iconCarrier" class="fill-current">
+                      <g class="fill-current">
+                        <g class="fill-current">
+                          <rect fill="#c3c1bb" height="210.16" width="28.98" x="173.863" y="217.838" class="fill-current"></rect>
+                          <path
+                            class="fill-current"
+                            d="M202.844,437.998h-28.98c-5.522,0-10-4.478-10-10v-210.16c0-5.522,4.478-10,10-10h28.98 c5.522,0,10,4.478,10,10v210.16C212.844,433.521,208.366,437.998,202.844,437.998z M183.863,417.998h8.98v-190.16h-8.98V417.998z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g class="fill-current">
+                          <path
+                            class="fill-current"
+                            d="M430.582,437.998h-29.037c-5.522,0-10-4.478-10-10v-210.16c0-5.522,4.478-10,10-10h29.037 c5.522,0,10,4.478,10,10v210.16C440.582,433.521,436.104,437.998,430.582,437.998z M411.545,417.998h9.037v-190.16h-9.037V417.998 z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g class="fill-current">
+                          <path
+                            class="fill-current"
+                            d="M453.045,227.838H153.477c-5.522,0-10-4.478-10-10v-29.935c0-5.522,4.478-10,10-10h299.568 c5.522,0,10,4.478,10,10v29.935C463.045,223.36,458.567,227.838,453.045,227.838z M163.477,207.838h279.568v-9.935H163.477 V207.838z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g class="fill-current">
+                          <rect fill="#c3c1bb" height="136.195" width="30.188" x="236.568" y="291.803" class="fill-current"></rect>
+                          <path
+                            class="fill-current"
+                            d="M266.756,437.998h-30.188c-5.522,0-10-4.478-10-10V291.803c0-5.522,4.478-10,10-10h30.188 c5.522,0,10,4.478,10,10v136.195C276.756,433.521,272.278,437.998,266.756,437.998z M246.568,417.998h10.188V301.803h-10.188 V417.998z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g class="fill-current">
+                          <rect fill="#c3c1bb" height="136.195" width="30.188" x="58.955" y="291.803" class="fill-current"></rect>
+                          <path
+                            class="fill-current"
+                            d="M89.143,437.998H58.955c-5.522,0-10-4.478-10-10V291.803c0-5.522,4.478-10,10-10h30.188 c5.522,0,10,4.478,10,10v136.195C99.143,433.521,94.665,437.998,89.143,437.998z M68.955,417.998h10.188V301.803H68.955V417.998z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g class="fill-current">
+                          <path
+                            class="fill-current"
+                            d="M173.863,301.803H58.955c-5.522,0-10-4.478-10-10V84.002c0-5.522,4.478-10,10-10h39.313 c5.522,0,10,4.478,10,10V242.49h65.596c5.522,0,10,4.478,10,10v39.313C183.863,297.325,179.386,301.803,173.863,301.803z M68.955,281.803h94.908V262.49H98.268c-5.522,0-10-4.478-10-10V94.002H68.955V281.803z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g class="fill-current">
+                          <path
+                            class="fill-current"
+                            d="M266.756,301.803h-63.912c-5.522,0-10-4.478-10-10V252.49c0-5.522,4.478-10,10-10h63.912 c5.522,0,10,4.478,10,10v39.313C276.756,297.325,272.278,301.803,266.756,301.803z M212.844,281.803h43.912V262.49h-43.912 V281.803z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g class="fill-current">
+                          <rect fill="#c3c1bb" height="210.16" width="28.98" x="173.863" y="217.838" class="fill-current"></rect>
+                          <path
+                            d="M202.844,437.998h-28.98c-5.522,0-10-4.478-10-10v-210.16c0-5.522,4.478-10,10-10h28.98 c5.522,0,10,4.478,10,10v210.16C212.844,433.521,208.366,437.998,202.844,437.998z M183.863,417.998h8.98v-190.16h-8.98V417.998z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g>
+                          <rect fill="#c3c1bb" height="210.16" width="29.037" x="401.545" y="217.838" class="fill-current"></rect>
+                          <path
+                            d="M430.582,437.998h-29.037c-5.522,0-10-4.478-10-10v-210.16c0-5.522,4.478-10,10-10h29.037 c5.522,0,10,4.478,10,10v210.16C440.582,433.521,436.104,437.998,430.582,437.998z M411.545,417.998h9.037v-190.16h-9.037V417.998 z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g class="fill-current">
+                          <rect fill="#c3c1bb" height="29.935" width="299.568" x="153.477" y="187.903" class="fill-current"></rect>
+                          <path
+                            d="M453.045,227.838H153.477c-5.522,0-10-4.478-10-10v-29.935c0-5.522,4.478-10,10-10h299.568 c5.522,0,10,4.478,10,10v29.935C463.045,223.36,458.567,227.838,453.045,227.838z M163.477,207.838h279.568v-9.935H163.477 V207.838z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g>
+                          <rect fill="#c3c1bb" height="136.195" width="30.188" x="236.568" y="291.803" class="fill-current"></rect>
+                          <path
+                            d="M266.756,437.998h-30.188c-5.522,0-10-4.478-10-10V291.803c0-5.522,4.478-10,10-10h30.188 c5.522,0,10,4.478,10,10v136.195C276.756,433.521,272.278,437.998,266.756,437.998z M246.568,417.998h10.188V301.803h-10.188 V417.998z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g>
+                          <rect fill="#c3c1bb" height="136.195" width="30.188" x="58.955" y="291.803" class="fill-current"></rect>
+                          <path
+                            d="M89.143,437.998H58.955c-5.522,0-10-4.478-10-10V291.803c0-5.522,4.478-10,10-10h30.188 c5.522,0,10,4.478,10,10v136.195C99.143,433.521,94.665,437.998,89.143,437.998z M68.955,417.998h10.188V301.803H68.955V417.998z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g>
+                          <polygon fill="#c3c1bb" points="98.268,252.49 173.863,252.49 173.863,291.803 58.955,291.803 58.955,84.002 98.268,84.002 " class="fill-current"></polygon>
+                          <path
+                            d="M173.863,301.803H58.955c-5.522,0-10-4.478-10-10V84.002c0-5.522,4.478-10,10-10h39.313 c5.522,0,10,4.478,10,10V242.49h65.596c5.522,0,10,4.478,10,10v39.313C183.863,297.325,179.386,301.803,173.863,301.803z M68.955,281.803h94.908V262.49H98.268c-5.522,0-10-4.478-10-10V94.002H68.955V281.803z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                        <g class="fill-current">
+                          <rect fill="#c3c1bb" height="39.313" width="63.912" x="202.844" y="252.49" class="fill-current"></rect>
+                          <path
+                            d="M266.756,301.803h-63.912c-5.522,0-10-4.478-10-10V252.49c0-5.522,4.478-10,10-10h63.912 c5.522,0,10,4.478,10,10v39.313C276.756,297.325,272.278,301.803,266.756,301.803z M212.844,281.803h43.912V262.49h-43.912 V281.803z"
+                            fill="#444B54"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!--Hero Section End-->
 
     <!-- About Section Start-->
@@ -106,7 +243,7 @@
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2">
-            <h4 class="font-bold uppercase text-primary text-lg mb-3 max-w-xl">About Me</h4>
+            <h4 class="font-bold uppercase text-primary text-lg mb-3 max-w-xl">About Us</h4>
             <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white">LetLive Ugot!</h2>
             <p class="font-medium text-base text-secondary max-w-xl lg:text-lg dark:text-slate-200">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quae officia maiores sapiente perferendis dicta dolore qui harum repellendus perspiciatis.
@@ -159,12 +296,166 @@
     </section>
     <!-- About Section End-->
 
-    <!-- Portofolio Section Start-->
-    <section id="portofolio" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
+    <!--Brand Section Start-->
+    <!-- <section id="brand" class="pb-32 dark:bg-dark">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="columns-4 border rounded-lg shadow-lg p-5 mt-20 w-full">
+            <a href="#" class="p-4 rounded-full flex justify-center items-center border border-dark text-dark border-solid hover:border-primary hover:bg-primary hover:text-white dark:border-slate-400 dark:text-slate-400">
+              <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Gaming</title>
+                <path
+                  d="M24 13.2v-6l-6-3.6-6 3.6-6-3.6-6 3.6v6l12 7.2zM8.4 10.8H6v2.4H4.8v-2.4H2.4V9.6h2.4V7.2H6v2.4h2.4zm7.2 2.4a1.2 1.2 0 01-1.2-1.2c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2zm3.6-2.4A1.2 1.2 0 0118 9.6c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2Z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="p-4 rounded-full flex justify-center items-center border border-dark text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-slate-400 dark:text-slate-400">
+              <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Robot</title>
+                <path
+                  d="M4.9565 10.2246c0-1.8766 1.5257-3.4023 3.4-3.4023 1.8766 0 3.4024 1.5257 3.4024 3.4023 0 .6838-.5526 1.2364-1.2341 1.2364-.6818 0-1.2344-.5526-1.2344-1.2364 0-.513-.4185-.9296-.9338-.9296-.5129 0-.9317.4165-.9317.9296 0 .6838-.5523 1.2364-1.234 1.2364-.6818 0-1.2344-.5526-1.2344-1.2364m14.0868 5.717c0 .6842-.5524 1.2363-1.2341 1.2363H6.3575c-.6818 0-1.2344-.552-1.2344-1.2363 0-.6837.5526-1.2363 1.2344-1.2363h11.4517c.6817 0 1.234.5526 1.234 1.2363m-5.351-5.0244c-.3814-.5657-.2323-1.3328.3334-1.7143l2.8628-1.9334c.5613-.3902 1.3329-.2324 1.7144.3289.3815.5654.2323 1.3329-.3334 1.7144l-2.8628 1.9333c-.5442.3831-1.3348.2379-1.7144-.3289zm7.8393 7.6018a.8815.8815 0 0 1-.258.6227l-2.1277 2.1277a.8822.8822 0 0 1-.623.258H5.4772a.8822.8822 0 0 1-.623-.258l-2.1277-2.1277a.8815.8815 0 0 1-.258-.6227V5.4818a.8797.8797 0 0 1 .258-.6228l2.1277-2.1282a.8816.8816 0 0 1 .623-.2578h13.0456a.8816.8816 0 0 1 .623.2578l2.1277 2.1282a.8797.8797 0 0 1 .258.6228V18.519zm1.811-15.0835L20.5644.6577A2.2454 2.2454 0 0 0 18.9775 0H5.0207A2.2445 2.2445 0 0 0 3.433.658L.657 3.4359A2.2449 2.2449 0 0 0 0 5.0228v13.9547c0 .5953.2366 1.1667.6575 1.5872l2.778 2.7779c.421.421.9918.6573 1.5871.6573h13.9548a2.2448 2.2448 0 0 0 1.5872-.6573l2.7779-2.7779A2.2436 2.2436 0 0 0 24 18.9775V5.023a2.2451 2.2451 0 0 0-.6575-1.5875z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="p-4 rounded-full flex justify-center items-center border border-dark text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-slate-400 dark:text-slate-400">
+              <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Visual Studio Code</title>
+                <path
+                  d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="p-4 rounded-full flex justify-center items-center border border-dark text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-slate-400 dark:text-slate-400">
+              <svg viewBox="0 0 512 512" class="fill-current" enable-background="new 0 0 512 512" id="Layer_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                <g id="SVGRepo_bgCarrier" stroke-width="0" class="fill-current"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" class="fill-current"></g>
+                <g id="SVGRepo_iconCarrier" class="fill-current">
+                  <g class="fill-current">
+                    <g class="fill-current">
+                      <rect fill="#c3c1bb" height="210.16" width="28.98" x="173.863" y="217.838" class="fill-current"></rect>
+                      <path
+                        class="fill-current"
+                        d="M202.844,437.998h-28.98c-5.522,0-10-4.478-10-10v-210.16c0-5.522,4.478-10,10-10h28.98 c5.522,0,10,4.478,10,10v210.16C212.844,433.521,208.366,437.998,202.844,437.998z M183.863,417.998h8.98v-190.16h-8.98V417.998z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g class="fill-current">
+                      <path
+                        class="fill-current"
+                        d="M430.582,437.998h-29.037c-5.522,0-10-4.478-10-10v-210.16c0-5.522,4.478-10,10-10h29.037 c5.522,0,10,4.478,10,10v210.16C440.582,433.521,436.104,437.998,430.582,437.998z M411.545,417.998h9.037v-190.16h-9.037V417.998 z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g class="fill-current">
+                      <path
+                        class="fill-current"
+                        d="M453.045,227.838H153.477c-5.522,0-10-4.478-10-10v-29.935c0-5.522,4.478-10,10-10h299.568 c5.522,0,10,4.478,10,10v29.935C463.045,223.36,458.567,227.838,453.045,227.838z M163.477,207.838h279.568v-9.935H163.477 V207.838z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g class="fill-current">
+                      <rect fill="#c3c1bb" height="136.195" width="30.188" x="236.568" y="291.803" class="fill-current"></rect>
+                      <path
+                        class="fill-current"
+                        d="M266.756,437.998h-30.188c-5.522,0-10-4.478-10-10V291.803c0-5.522,4.478-10,10-10h30.188 c5.522,0,10,4.478,10,10v136.195C276.756,433.521,272.278,437.998,266.756,437.998z M246.568,417.998h10.188V301.803h-10.188 V417.998z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g class="fill-current">
+                      <rect fill="#c3c1bb" height="136.195" width="30.188" x="58.955" y="291.803" class="fill-current"></rect>
+                      <path
+                        class="fill-current"
+                        d="M89.143,437.998H58.955c-5.522,0-10-4.478-10-10V291.803c0-5.522,4.478-10,10-10h30.188 c5.522,0,10,4.478,10,10v136.195C99.143,433.521,94.665,437.998,89.143,437.998z M68.955,417.998h10.188V301.803H68.955V417.998z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g class="fill-current">
+                      <path
+                        class="fill-current"
+                        d="M173.863,301.803H58.955c-5.522,0-10-4.478-10-10V84.002c0-5.522,4.478-10,10-10h39.313 c5.522,0,10,4.478,10,10V242.49h65.596c5.522,0,10,4.478,10,10v39.313C183.863,297.325,179.386,301.803,173.863,301.803z M68.955,281.803h94.908V262.49H98.268c-5.522,0-10-4.478-10-10V94.002H68.955V281.803z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g class="fill-current">
+                      <path
+                        class="fill-current"
+                        d="M266.756,301.803h-63.912c-5.522,0-10-4.478-10-10V252.49c0-5.522,4.478-10,10-10h63.912 c5.522,0,10,4.478,10,10v39.313C276.756,297.325,272.278,301.803,266.756,301.803z M212.844,281.803h43.912V262.49h-43.912 V281.803z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g class="fill-current">
+                      <rect fill="#c3c1bb" height="210.16" width="28.98" x="173.863" y="217.838" class="fill-current"></rect>
+                      <path
+                        d="M202.844,437.998h-28.98c-5.522,0-10-4.478-10-10v-210.16c0-5.522,4.478-10,10-10h28.98 c5.522,0,10,4.478,10,10v210.16C212.844,433.521,208.366,437.998,202.844,437.998z M183.863,417.998h8.98v-190.16h-8.98V417.998z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g>
+                      <rect fill="#c3c1bb" height="210.16" width="29.037" x="401.545" y="217.838" class="fill-current"></rect>
+                      <path
+                        d="M430.582,437.998h-29.037c-5.522,0-10-4.478-10-10v-210.16c0-5.522,4.478-10,10-10h29.037 c5.522,0,10,4.478,10,10v210.16C440.582,433.521,436.104,437.998,430.582,437.998z M411.545,417.998h9.037v-190.16h-9.037V417.998 z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g class="fill-current">
+                      <rect fill="#c3c1bb" height="29.935" width="299.568" x="153.477" y="187.903" class="fill-current"></rect>
+                      <path
+                        d="M453.045,227.838H153.477c-5.522,0-10-4.478-10-10v-29.935c0-5.522,4.478-10,10-10h299.568 c5.522,0,10,4.478,10,10v29.935C463.045,223.36,458.567,227.838,453.045,227.838z M163.477,207.838h279.568v-9.935H163.477 V207.838z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g>
+                      <rect fill="#c3c1bb" height="136.195" width="30.188" x="236.568" y="291.803" class="fill-current"></rect>
+                      <path
+                        d="M266.756,437.998h-30.188c-5.522,0-10-4.478-10-10V291.803c0-5.522,4.478-10,10-10h30.188 c5.522,0,10,4.478,10,10v136.195C276.756,433.521,272.278,437.998,266.756,437.998z M246.568,417.998h10.188V301.803h-10.188 V417.998z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g>
+                      <rect fill="#c3c1bb" height="136.195" width="30.188" x="58.955" y="291.803" class="fill-current"></rect>
+                      <path
+                        d="M89.143,437.998H58.955c-5.522,0-10-4.478-10-10V291.803c0-5.522,4.478-10,10-10h30.188 c5.522,0,10,4.478,10,10v136.195C99.143,433.521,94.665,437.998,89.143,437.998z M68.955,417.998h10.188V301.803H68.955V417.998z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g>
+                      <polygon fill="#c3c1bb" points="98.268,252.49 173.863,252.49 173.863,291.803 58.955,291.803 58.955,84.002 98.268,84.002 " class="fill-current"></polygon>
+                      <path
+                        d="M173.863,301.803H58.955c-5.522,0-10-4.478-10-10V84.002c0-5.522,4.478-10,10-10h39.313 c5.522,0,10,4.478,10,10V242.49h65.596c5.522,0,10,4.478,10,10v39.313C183.863,297.325,179.386,301.803,173.863,301.803z M68.955,281.803h94.908V262.49H98.268c-5.522,0-10-4.478-10-10V94.002H68.955V281.803z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                    <g class="fill-current">
+                      <rect fill="#c3c1bb" height="39.313" width="63.912" x="202.844" y="252.49" class="fill-current"></rect>
+                      <path
+                        d="M266.756,301.803h-63.912c-5.522,0-10-4.478-10-10V252.49c0-5.522,4.478-10,10-10h63.912 c5.522,0,10,4.478,10,10v39.313C276.756,297.325,272.278,301.803,266.756,301.803z M212.844,281.803h43.912V262.49h-43.912 V281.803z"
+                        fill="#444B54"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+
+            
+          </div>
+
+          <hr class="my-24 border-t-4" />
+        </div>
+      </div>
+    </section> -->
+    <!-- <img src="https://source.unsplash.com/600x400" alt="Image" class="p-5 overflow-hidden relative hover:scale-95 transition-all duration-500" />
+            <img src="https://source.unsplash.com/600x400" alt="Image" class="p-5 overflow-hidden relative hover:scale-95 transition-all duration-500" />
+            <img src="https://source.unsplash.com/600x400" alt="Image" class="p-5 overflow-hidden relative hover:scale-95 transition-all duration-500" />
+            <img src="https://source.unsplash.com/600x400" alt="Image" class="p-5 overflow-hidden relative hover:scale-95 transition-all duration-500" /> -->
+    <!--Brand Section End-->
+
+    <!-- Product Section Start-->
+    <section id="product" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
-            <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
+            <h4 class="font-semibold text-lg text-primary mb-2">Product</h4>
             <h2 class="font-bolt text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Newest Project</h2>
             <p class="font-medium text-md text-secondary md:text-lg dark:text-slate-200">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eveniet dolores facere consequatur praesentium ipsam perspiciatis aut impedit velit a.
@@ -207,7 +498,7 @@
         </div>
       </div>
     </section>
-    <!-- Portofolio Section End-->
+    <!-- Product Section End-->
 
     <!-- Clients Section Start -->
     <section id="clients" class="pt-36 pb-32 bg-dark dark:bg-300">
@@ -358,7 +649,7 @@
                 <a href="#about" class="inline-block text-base hover:text-primary mb-3">About Me</a>
               </li>
               <li>
-                <a href="#portofolio" class="inline-block text-base hover:text-primary mb-3">Portofolio</a>
+                <a href="#product" class="inline-block text-base hover:text-primary mb-3">Product</a>
               </li>
               <li>
                 <a href="#clients" class="inline-block text-base hover:text-primary mb-3">Clients</a>
